@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "205621390779",
+    "project_id": "clo-71070",
+    "storage_bucket": "clo-71070.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205621390779:android:bcd696a17e6adddaa6e89e",
+        "android_client_info": {
+          "package_name": "anurag.app.amazon_clone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205621390779-frcr2hdk6mjedup373fbi3l1skk33so9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1l0YwSbhylZcxIgh7yOsExUaWU9MJUNI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "205621390779-frcr2hdk6mjedup373fbi3l1skk33so9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
