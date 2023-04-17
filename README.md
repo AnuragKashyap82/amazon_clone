@@ -1,4 +1,4 @@
-# amazon_clone
+  amazon_clone
 
 A new Flutter project.
 
