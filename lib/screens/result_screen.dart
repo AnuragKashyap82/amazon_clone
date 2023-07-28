@@ -1,9 +1,10 @@
-import 'package:amazon_clone/model/product_model.dart';
 import 'package:amazon_clone/widgets/loading_widget.dart';
 import 'package:amazon_clone/widgets/results_widget.dart';
 import 'package:amazon_clone/widgets/search_widget.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
+
+import '../model/product_model.dart';
 
 class ResultsScreen extends StatelessWidget {
   final String query;

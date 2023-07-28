@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:amazon_clone/utils/color_theme.dart';
 import 'package:amazon_clone/utils/utils.dart';
 import 'package:flutter/material.dart';
@@ -9,6 +11,7 @@ class ProductShowCaseListView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    log("Product get ca");
     Size screenSize = Utils().getScreenSize();
     double height = screenSize.height/4;
     double titleHeight = 25;

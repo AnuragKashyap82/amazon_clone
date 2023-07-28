@@ -1,4 +1,3 @@
-import 'package:amazon_clone/model/product_model.dart';
 import 'package:amazon_clone/resources/cloudFirestoreMethods.dart';
 import 'package:amazon_clone/utils/color_theme.dart';
 import 'package:amazon_clone/utils/constants.dart';
@@ -11,6 +10,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '../model/product_model.dart';
 import '../providers/user_detail_provider.dart';
 import '../utils/utils.dart';
 

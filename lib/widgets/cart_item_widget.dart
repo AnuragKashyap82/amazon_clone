@@ -1,4 +1,3 @@
-import 'package:amazon_clone/model/product_model.dart';
 import 'package:amazon_clone/resources/cloudFirestoreMethods.dart';
 import 'package:amazon_clone/utils/color_theme.dart';
 import 'package:amazon_clone/utils/utils.dart';
@@ -7,6 +6,7 @@ import 'package:amazon_clone/widgets/custom_square_button.dart';
 import 'package:amazon_clone/widgets/product_information_widget.dart';
 import 'package:flutter/material.dart';
 
+import '../model/product_model.dart';
 import '../screens/product_screen.dart';
 
 class CartItemWidget extends StatelessWidget {

@@ -1,4 +1,3 @@
-import 'package:amazon_clone/model/product_model.dart';
 import 'package:amazon_clone/model/user_details_model.dart';
 import 'package:amazon_clone/screens/sell_screen.dart';
 import 'package:amazon_clone/utils/constants.dart';
@@ -13,6 +12,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../model/order_request_model.dart';
+import '../model/product_model.dart';
 import '../providers/user_detail_provider.dart';
 import '../utils/color_theme.dart';
 import '../widgets/custom_main_btn.dart';

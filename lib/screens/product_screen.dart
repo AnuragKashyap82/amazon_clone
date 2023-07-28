@@ -1,4 +1,3 @@
-import 'package:amazon_clone/model/product_model.dart';
 import 'package:amazon_clone/model/review_model.dart';
 import 'package:amazon_clone/model/user_details_model.dart';
 import 'package:amazon_clone/resources/cloudFirestoreMethods.dart';
@@ -16,6 +15,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '../model/product_model.dart';
 import '../providers/user_detail_provider.dart';
 import '../widgets/custom_main_btn.dart';
 

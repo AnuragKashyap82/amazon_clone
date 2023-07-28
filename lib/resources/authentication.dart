@@ -23,8 +23,7 @@ class AuthenticationMethods {
         await firebaseAuth.createUserWithEmailAndPassword(
             email: email, password: password);
         UserDetailsModel user = UserDetailsModel(name: name, address: address);
-        await fireStoreClass.uploadNameAndAddressToDb(
-            user: user);
+        await fireStoreClass.uploadNameAndAddressToDb(user: user);
         output = "success";
       } on FirebaseAuthException catch (e) {
         output = e.message.toString();

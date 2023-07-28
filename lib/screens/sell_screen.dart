@@ -19,13 +19,13 @@ class SellScreen extends StatefulWidget {
 }
 
 class _SellScreenState extends State<SellScreen> {
+
   bool isLoading = false;
   int selected = 1;
   Uint8List? image;
   TextEditingController nameController = TextEditingController();
   TextEditingController costController = TextEditingController();
   List<double> keysForDiscount = [0, 70, 60, 50];
-  //keysofdiscoutn[selected -1]
 
   @override
   void dispose() {

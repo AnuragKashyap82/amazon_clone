@@ -1,6 +1,9 @@
-import 'package:amazon_clone/model/product_model.dart';
+import 'dart:developer';
+
 import 'package:amazon_clone/screens/product_screen.dart';
 import 'package:flutter/material.dart';
+
+import '../model/product_model.dart';
 
 class SimpleProductWidget extends StatelessWidget {
   final ProductModel productModel;
@@ -8,6 +11,7 @@ class SimpleProductWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    log("Product gets ");
     return GestureDetector(
       onTap: () {
         Navigator.push(
